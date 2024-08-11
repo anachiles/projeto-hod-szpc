@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .informacoes h1 {
@@ -72,8 +72,8 @@ body {
 }
 
 .imagem {
-  width: 100vw;
-  height: 100vh;
+  width: 100dvw;
+  height: 100dvh;
   object-fit: cover;
   display: none;
 }
@@ -95,8 +95,8 @@ body {
 
 main:after {
   content: '';
-  min-height: 100vh;
-  width: 100vw;
+  min-height: 100dvh;
+  width: 100dvw;
   position: fixed;
   top: 0;
   left: 0;
